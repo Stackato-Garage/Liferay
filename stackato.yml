@@ -1,0 +1,6 @@
+name: liferay
+framework:
+  type: java_web
+mem: 3082M
+env:
+  JAVA_OPTS: "-XX:MaxPermSize=256m"

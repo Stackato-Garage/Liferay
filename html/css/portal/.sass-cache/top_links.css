@@ -1,0 +1,28 @@
+.top-links-container {
+  clear: both;
+  overflow: hidden; }
+
+.top-links {
+  float: right; }
+
+.top-link .taglib-text {
+  border-right: 1px solid #bbb;
+  margin-right: 0.4em;
+  padding-right: 0.6em; }
+
+.top-link.last .taglib-text {
+  border-width: 0; }
+
+.top-links-navigation {
+  list-style-type: none;
+  float: left;
+  margin: 0; }
+
+.top-links-navigation li {
+  display: inline-block;
+  list-style-type: none; }
+
+.ie6 .top-links-navigation li, .ie7 .top-links-navigation li {
+  display: inline;
+  zoom: 1; }
+
