@@ -1,6 +1,13 @@
 name: liferay
 framework:
-  type: java_web
-mem: 3082M
+  type: java_ee
+mem: 2048M
+services:
+      jdbc/LiferayPool:
+        type: mysql
 env:
   JAVA_OPTS: "-XX:MaxPermSize=256m"
+# Fix #95485
+hooks:
+  pre-running:
+   - cat > /app/logs/startup.log
