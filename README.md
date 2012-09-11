@@ -8,7 +8,7 @@ Running the Application
 Liferay comes with a default database called HSQL or "hypersonic." This is not meant for production use however! As this example is just a demo, it does use the HSQL database.
 If you want to use Liferay in production, you need to switch to another database.
 
-Also, the JAVA JVM needs the -XX:MaxPermSize=256m" arguments for this application. We configured that by adding the JAVA_OPTS environment variable.
+Also, the JAVA JVM needs the -XX:MaxPermSize=256m" argument for this application. We configured that by adding the JAVA_OPTS environment variable.
 
 To run the application, make sure you have the Stackato client installed and that you are logged in successfully for your desired target environment (e.g. http://api.stackato.local).
 
